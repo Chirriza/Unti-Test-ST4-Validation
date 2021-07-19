@@ -1,0 +1,1526 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"BmsId": null,
+				"Abn": "43096702635",
+				"Wpn": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": null,
+					"ContactPerson": null
+				},
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"PostalAddress": {
+					"PostcodeT": null,
+					"CountryCode": "ad"
+				},
+				"Payroll": {
+					"PayRunDate": "2020-07-01",
+					"PayeeRecordCount": 22,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": null,
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						
+					}
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			},
+			"Intermediary": {
+				"Abn": null,
+				"AgentNumber": null,
+				"ContactPerson": null,
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Comment": "Emp01",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 500,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp02",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp02"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RTXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 500,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp03",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp03"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RTXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+							
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 500,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp04",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp04"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp05",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp05"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RTXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp06",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp06"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RDXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp07",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp07"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 500,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp08",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp08"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RTXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 500,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp09",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp09"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RDXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 500,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp10",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp10"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp11",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp11"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RTXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp12",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp12"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RDXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp13",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp13"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 500,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp14",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp14"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "HRXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"AddressDetailsCountryCode": "dn",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 500,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp15",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp15"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "WPXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SWP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 500,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp16",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp16"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RDXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 500,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp17",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp17"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RDXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 500,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp18",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp18"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp19",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp19"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "HRXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"AddressDetailsCountryCode": "dn",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp20",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp20"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "WPXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SWP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp21",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp21"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RTXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Comment": "Emp22",
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp22"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RDXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								
+								"GrossAmount": 0,
+								
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+								
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						]
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

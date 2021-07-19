@@ -1,0 +1,474 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Update.004.00",
+		"Header": {
+			"Payer": {
+				"BmsId": "222",
+				"PreviousBmsId":  "222",
+				"Abn": "43096702635",
+				"Wpn": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": null,
+					"ContactPerson": null
+				},
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"PostalAddress": {
+					"PostcodeT": null,
+					"CountryCode": "ad"
+				},
+				"Payroll": {
+					"PayRunDate": "2021-07-30",
+					"PayeeRecordCount": 14,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": null,
+					"IsAmendment": true,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						"ChildSupportGarnishee": 0,
+						"ChildSupportWithholding": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp02"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp03"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp04"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp05"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp06"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp07"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp08"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp09"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp10"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp11"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"TaxTreatmentCode": "DOXXX1",
+						"EmploymentStartDate": "2021-01-01",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp12"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp13"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			},
+						{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp14"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"TaxTreatmentCode": "DOXXX1",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-01",
+						"RemunerationPayrollEventFinalIndicator": true
+					}
+				}
+			}
+
+
+
+
+
+
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

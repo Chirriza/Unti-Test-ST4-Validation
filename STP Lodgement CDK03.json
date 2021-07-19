@@ -1,0 +1,1168 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"BmsId": null,
+				"Abn": "43096702635",
+				"Wpn": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": "e-Computers - Australia",
+					"ContactPerson": "Joyce Jones"
+				},
+				"ContactDetails": {
+					"Email": "chirriza.deklerk@myob.com",
+					"Phone": "0389465255"
+				},
+				"PostalAddress": {
+					"Line1": "456 Main Road",
+					"Locality": "Melbourne",
+					"State": "VIC",
+					"PostcodeT": "3000",
+					"CountryCode": "au"
+				},
+				"Payroll": {
+					"PayRunDate": "2021-07-31",
+					"PayeeRecordCount": 16,
+					"MessageTimestamp": "2021-07-31T00:00:00Z",
+					"TransactionId": "186f0e41-57c4-e911-809e-0050569e6013",
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						"ChildSupportGarnishee": 0,
+						"ChildSupportWithholding": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": "SUPER",
+					"Date": "2021-06-01",
+					"Declared": true
+				}
+			},
+			"Intermediary": {
+				"Abn": null,
+				"AgentNumber": null,
+				"ContactPerson": null,
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"Declaration": {
+					"Signatory": "SUPER",
+					"Date": "2021-06-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "100"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RCXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 3,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "",
+						"Abn": "11223491505",
+						"EmployeeId": "200"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "VCXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "300"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "CHP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "400"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "NAXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "500"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "HFXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "600"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTTXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "",
+						"Abn": "22622149599",
+						"EmployeeId": "700"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "VOSXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "800"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "DVSXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "CHP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "900"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "NFSXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "110"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "HUSXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "111"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTSXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "112"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTS4XX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "113"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTS3XX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-07-01",
+						"PeriodEnds": "2021-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "114"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTSXHX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "115"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTSXFX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "116"
+					},
+					"Name": {
+						"FamilyName": "ALGER",
+						"GivenName": "AMANDA",
+						"OtherNames": ""
+					},
+					"BirthDate": {
+						"Day": 12,
+						"Month": 6,
+						"Year": 1981
+					},
+					"Address": {
+						"Line1": "675 Carl Street",
+						"Line2": "",
+						"Locality": "Southbank",
+						"State": "VIC",
+						"Postcode": "3006",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "amandaa@company.com.au",
+						"Phone": "0411220100"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RTSXAX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 150,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

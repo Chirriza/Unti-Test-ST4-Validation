@@ -1,0 +1,117 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"Abn": "10000003784",
+				"BmsId": null,
+				"BranchCode": "akl",
+				"Organisation": {
+					"Name": null,
+					"ContactPerson": null
+				},
+				"ContactDetails": {
+					"Email": "micro@soft.com",
+					"Phone": null
+				},
+				"PostalAddress": {
+					"PostcodeT": "4001",
+					"CountryCode": "au"
+				},
+				"Payroll": {
+					"PayRunDate": "2020-09-30",
+					"PayeeRecordCount": 1,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": null,
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						"ChildSupportGarnishee": 9000,
+						"ChildSupportWithholding": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			},
+			"Intermediary": {
+				"Abn": null,
+				"AgentNumber": null,
+				"ContactPerson": null,
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "000000000",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

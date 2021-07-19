@@ -1,0 +1,518 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"Wpn": "43096702635",
+				"BmsId": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": null,
+					"ContactPerson": null
+				},
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"PostalAddress": {
+					"PostcodeT": null,
+					"CountryCode": "ad"
+				},
+				"Payroll": {
+					"PayRunDate": "2020-09-30",
+					"PayeeRecordCount": 8,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": null,
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			},
+			"Intermediary": {
+				"Abn": null,
+				"AgentNumber": null,
+				"ContactPerson": null,
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "X",
+								"EmployerContributionsYearToDateAmount": 0
+							},
+							{
+								"EntitlementTypeCode": "",
+								"EmployerContributionsYearToDateAmount": 0
+							},
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							},
+							{
+								"EntitlementTypeCode": "O",
+								"EmployerContributionsYearToDateAmount": 0
+							},
+							{
+								"EntitlementTypeCode": "R",
+								"EmployerContributionsYearToDateAmount": 0
+							},
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp02"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 200
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp03"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 300
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "R",
+								"EmployerContributionsYearToDateAmount": 3
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp04"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 400
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 400
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp05"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 500
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "O",
+								"EmployerContributionsYearToDateAmount": 6
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000001004",
+						"EmployeeId": "Emp06"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "R",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp07"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 700
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "R",
+								"EmployerContributionsYearToDateAmount": 700
+							},
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 700
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "10000156",
+						"EmployeeId": "Emp08"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 800
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "R",
+								"EmployerContributionsYearToDateAmount": 700
+							}
+						]
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

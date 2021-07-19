@@ -1,0 +1,300 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"Abn": "43096702635",
+				"BmsId": null,
+				"Wpn": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": null,
+					"ContactPerson": null
+				},
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"PostalAddress": {
+					"PostcodeT": null,
+					"CountryCode": "ad"
+				},
+				"Payroll": {
+					"PayRunDate": "2021-01-01",
+					"PayeeRecordCount": 2,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": null,
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						"ChildSupportWithholding": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			},
+			"Intermediary": {
+				"Abn": null,
+				"AgentNumber": null,
+				"ContactPerson": null,
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 25
+							},
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 4059
+							},
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 1992
+							},
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 23990
+							},
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 59301
+							},
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 62900
+							},
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 1
+							},
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 16820,
+								"IncomeTaxForeignWithholding": 17005
+							},
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34
+							},
+							{
+								"IncomeStreamTypeCode": "JPD",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34
+							},
+							{
+								"IncomeStreamTypeCode": "x y z",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34
+							},
+							{
+								"IncomeStreamTypeCode": "IAA",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 4058
+							},
+							{
+								"IncomeStreamTypeCode": "IAA",
+								"AddressDetailsCountryCode": "za",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 9200
+							},
+							{
+								"IncomeStreamTypeCode": "CHP",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 6058
+							},
+							{
+								"IncomeStreamTypeCode": "CHP",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34
+							},
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IndividualNonBusinessExemptForeignEmploymentIncome": 13293
+							},
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 65
+							},
+							{
+								"IncomeStreamTypeCode": "IAA",
+								"AddressDetailsCountryCode": "us",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 5
+							},
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "gb",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 6,
+								"IncomeTaxForeignWithholding": 120
+							},
+							{
+								"IncomeStreamTypeCode": "IAA",
+								"AddressDetailsCountryCode": "ug",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 7
+							},
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "sa",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 8,
+								"IncomeTaxForeignWithholding": 120
+							},
+							{
+								"IncomeStreamTypeCode": "IAA",
+								"AddressDetailsCountryCode": "at",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 9
+							},
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "bo",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 10,
+								"IncomeTaxForeignWithholding": 10
+							},
+							{
+								"IncomeStreamTypeCode": "IAA",
+								"AddressDetailsCountryCode": "rw",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 11
+							},
+							{
+								"IncomeStreamTypeCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"EmployeeId": "Emp02"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "ad"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "CHP",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"IncomeTaxForeignWithholding": 10200
+							}
+						]
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

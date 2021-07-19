@@ -1,0 +1,1616 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"BmsId": null,
+				"Abn": "43096702635",
+				"Wpn": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": "e-Computers - Australia",
+					"ContactPerson": "Joyce Jones"
+				},
+				"ContactDetails": {
+					"Email": "chirriza.deklerk@myob.com",
+					"Phone": "038946525"
+				},
+				"PostalAddress": {
+					"Line1": "456 Main Road",
+					"Locality": "Melbourne",
+					"State": "VIC",
+					"PostcodeT": "3000",
+					"CountryCode": "au"
+				},
+				"Payroll": {
+					"PayRunDate": "2021-07-31",
+					"PayeeRecordCount": 25,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": "186f0e41-57c4-e911-809e-0050569e6013",
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						"ChildSupportGarnishee": 0,
+						"ChildSupportWithholding": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": "SUPER",
+					"Date": "2021-06-01",
+					"Declared": true
+				}
+			},
+			"Intermediary": {
+				"Abn": null,
+				"AgentNumber": null,
+				"ContactPerson": null,
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-06-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "0205",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "2020-07-01",
+						"PaymentBasisCode": "",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp02"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1988
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-05-01",
+						"EmploymentEndDate": "2020-08-01",
+						"PaymentBasisCode": "X",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-02",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp03"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": "",
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": null,
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-05-01",
+						"EmploymentEndDate": "2021-08-01",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-07-01",
+						"PeriodEnds": "2020-07-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp04"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "aj@try.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-04-01",
+						"EmploymentEndDate": "2020-05-01",
+						"PaymentBasisCode": "C",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-06-30",
+						"PeriodEnds": "2020-06-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp05"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-04-01",
+						"EmploymentEndDate": "2020-05-01",
+						"PaymentBasisCode": "F",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-06-29",
+						"PeriodEnds": "2020-06-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp06"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-05-01",
+						"EmploymentEndDate": "2031-04-01",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": "D",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-05-01",
+						"PeriodEnds": "2021-05-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp07"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-05-01",
+						"EmploymentEndDate": "2022-04-01",
+						"PaymentBasisCode": "V",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-05-01",
+						"PeriodEnds": "2021-05-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp08"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-05-01",
+						"EmploymentEndDate": "2030-04-01",
+						"PaymentBasisCode": "V",
+						"CessationTypeCode": "V",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-05-01",
+						"PeriodEnds": "2021-05-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp09"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "V",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "VOXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "",
+						"EmployeeId": "Emp10"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp11"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp12"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp13"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp14"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp15"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp16"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000001970",
+						"EmployeeId": "Emp17"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp18"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp19"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp20"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp21"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp22"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp23"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp24"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"AddressDetailsCountryCode": "",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+								"GrossAmount": 0,
+								"OvertimePayment": 0,
+								"GrossBonusesAndCommissions": 0,
+								"GrossDirectorsFees": 0,
+								"IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+							}
+						],
+						"DeductionCollection": [
+							{
+								"DeductionTypeCode": null,
+								"RemunerationDeductionAmount": 0
+							}
+						],
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "T",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"Abn": "10000000096",
+						"EmployeeId": "Emp25"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1978
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "",
+						"Postcode": null,
+						"CountryCode": "nz"
+					},
+					"ContactDetails": {
+						"Email": "grant@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2020-08-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "N",
+						"CessationTypeCode": "",
+						"TaxTreatmentCode": "DZXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2020-08-01",
+						"PeriodEnds": "2020-08-31",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"SuperannuationContributionCollection": [
+							{
+								"EntitlementTypeCode": "L",
+								"EmployerContributionsYearToDateAmount": 0
+							}
+						]
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}

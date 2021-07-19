@@ -1,0 +1,350 @@
+{
+  "Id": null,
+  "HasAgencyResponded": true,
+  "Documents": {
+    "Form": "ato.stp.update2020",
+    "MessageType": "Submit.004.00",
+    "Header": {
+      "Payer": {
+        "Abn": "43096702635",
+        "BmsId": null,
+        "Wpn": null,
+        "BranchCode": "TA",
+        "Organisation": {
+          "Name": null,
+          "ContactPerson": null
+        },
+        "ContactDetails": {
+          "Email": null,
+          "Phone": null
+        },
+        "PostalAddress": {
+          "PostcodeT": null,
+          "CountryCode": "ad"
+        },
+        "Payroll": {
+          "PayRunDate": "2021-01-01",
+          "PayeeRecordCount": 4,
+          "MessageTimestamp": "2021-01-01T00:00:00Z",
+          "TransactionId": null,
+          "IsAmendment": false,
+          "Totals": {
+            "TaxWithheld": 0,
+            "GrossPayments": 0,
+            "ChildSupportWithholding": 0
+          }
+        },
+        "Declaration": {
+          "Signatory": null,
+          "Date": "2021-01-01",
+          "Declared": true
+        }
+      },
+      "Intermediary": {
+        "Abn": null,
+        "AgentNumber": null,
+        "ContactPerson": null,
+        "ContactDetails": {
+          "Email": null,
+          "Phone": null
+        },
+        "Declaration": {
+          "Signatory": null,
+          "Date": "2021-01-01",
+          "Declared": true
+        }
+      }
+    },
+    "Employees": [
+      {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "Emp01"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 2022
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "WA",
+            "Postcode": "0199",
+            "CountryCode": "au"
+          },
+          "ContactDetails": {
+            "Email": "chris.power@###",
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2021-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "P",
+            "CessationTypeCode": null,
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-01-01",
+            "PeriodEnds": "2021-01-30",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "IndividualNonBusinessExemptForeignEmploymentIncome": 0,
+                "GrossAmount": 0,
+               "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ],
+            "SuperannuationContributionCollection": [
+              {
+                "EntitlementTypeCode": "L",
+                "EmployerContributionsYearToDateAmount": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "Emp02"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1835
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": "10000",
+            "CountryCode": "au"
+          },
+          "ContactDetails": {
+            "Email": "freddy.com",
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2021-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "P",
+            "CessationTypeCode": null,
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-01-01",
+            "PeriodEnds": "2021-01-30",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "IndividualNonBusinessExemptForeignEmploymentIncome": 0,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ],
+            "SuperannuationContributionCollection": [
+              {
+                "EntitlementTypeCode": "L",
+                "EmployerContributionsYearToDateAmount": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "Emp03"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": "0981",
+            "CountryCode": "nz"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2021-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "P",
+            "CessationTypeCode": null,
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-01-01",
+            "PeriodEnds": "2021-01-30",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "IndividualNonBusinessExemptForeignEmploymentIncome": 0,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ],
+            "SuperannuationContributionCollection": [
+              {
+                "EntitlementTypeCode": "L",
+                "EmployerContributionsYearToDateAmount": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "Emp04"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": "grant@gmail.com",
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2021-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "P",
+            "CessationTypeCode": null,
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-01-01",
+            "PeriodEnds": "2021-01-30",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "IndividualNonBusinessExemptForeignEmploymentIncome": 0,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ],
+            "SuperannuationContributionCollection": [
+              {
+                "EntitlementTypeCode": "L",
+                "EmployerContributionsYearToDateAmount": 0
+              }
+            ]
+          }
+        }
+      }
+	],
+    "LogicalDocuments": 2
+  },
+  "Details": {
+    "Messages": [],
+    "ResponseCodes": [],
+    "LodgementReceipt": null,
+    "LodgementReceiptTimestamp": null,
+    "SendCount": null,
+    "Enqueued": null,
+    "AgencyResponded": null,
+    "MaximumSeverity": "Information",
+    "IgnoreMaximumSeverity": false
+  },
+  "SendAfterUtc": null
+}

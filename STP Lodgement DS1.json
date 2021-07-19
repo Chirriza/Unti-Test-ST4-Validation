@@ -1,0 +1,188 @@
+{
+  "Id": null,
+  "HasAgencyResponded": true,
+  "Documents": {
+    "Form": "ato.stp.update2020",
+    "MessageType": "Submit.004.00",
+    "Header": {
+      "Payer": {
+        "BmsId": null,
+        "Abn": "43096702635",
+        "Wpn": null,
+        "BranchCode": "TA",
+        "Organisation": {
+          "Name": null,
+          "ContactPerson": null
+        },
+        "ContactDetails": {
+          "Email": null,
+          "Phone": null
+        },
+        "PostalAddress": {
+          "PostcodeT": null,
+          "CountryCode": "ad"
+        },
+        "Payroll": {
+          "PayRunDate": "2021-01-01",
+          "PayeeRecordCount": 1,
+          "MessageTimestamp": "2021-01-01T00:00:00Z",
+          "TransactionId": null,
+          "IsAmendment": false,
+          "Totals": {
+            "TaxWithheld": 0,
+            "GrossPayments": 0,
+            "ChildSupportGarnishee": 0,
+            "ChildSupportWithholding": 0
+          }
+        },
+        "Declaration": {
+          "Signatory": null,
+          "Date": "2021-01-01",
+          "Declared": true
+        }
+      },
+      "Intermediary": {
+        "Abn": null,
+        "AgentNumber": null,
+        "ContactPerson": null,
+        "ContactDetails": {
+          "Email": null,
+          "Phone": null
+        },
+        "Declaration": {
+          "Signatory": null,
+          "Date": "2021-01-01",
+          "Declared": true
+        }
+      }
+    },
+    "Employees": [
+      {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "001",
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2021-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "P",
+            "CessationTypeCode": null,
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-01-01",
+            "PeriodEnds": "2021-01-30",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "LAB",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "EmploymentTerminationPaymentCollection": [
+                  {
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "P",
+                    "IncomeD": "2021-01-01",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 12000,
+                    "IncomePayAsYouGoWithholding": 200
+                  },
+ 		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "P",
+                    "IncomeD": "2021-01-01",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 12000,
+                    "IncomePayAsYouGoWithholding": 200
+                  },
+		 {
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "9",
+                    "IncomeD": "2021-01-01",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 12000,
+                    "IncomePayAsYouGoWithholding": 200
+                  },
+		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "PP",
+                    "IncomeD": "2021-01-01",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 12000,
+                    "IncomePayAsYouGoWithholding": 200
+                  },
+		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "",
+                    "IncomeD": "2018-01-01",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 12000,
+                    "IncomePayAsYouGoWithholding": 200
+                  },
+		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "P",
+                    "IncomeD": "2021-01-04",
+                  },
+		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "O",
+                    "IncomeD": "2021-01-01",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 50,
+                    "IncomePayAsYouGoWithholding": 200
+                  },
+		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "D",
+                    "IncomeD": "2021-01-01",
+                    "IncomeTaxFreeA": 220,
+                    "IncomePayAsYouGoWithholding": 20
+                  },
+		{
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "D",
+                    "IncomeD": "2021-01-23",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 200,
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+
+    ],
+    "LogicalDocuments": 2
+  },
+  "Details": {
+    "Messages": [],
+    "ResponseCodes": [],
+    "LodgementReceipt": null,
+    "LodgementReceiptTimestamp": null,
+    "SendCount": null,
+    "Enqueued": null,
+    "AgencyResponded": null,
+    "MaximumSeverity": "Information",
+    "IgnoreMaximumSeverity": false
+  },
+  "SendAfterUtc": null
+}

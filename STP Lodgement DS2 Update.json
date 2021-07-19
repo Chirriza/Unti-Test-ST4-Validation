@@ -1,0 +1,1034 @@
+{
+  "Id": null,
+  "HasAgencyResponded": true,
+  "Documents": {
+    "Form": "ato.stp.update2020",
+    "MessageType": "Update.004.00",
+    "Header": {
+      "Payer": {
+        "BmsId": null,
+        "Abn": "43096702635",
+        "Wpn": null,
+        "BranchCode": "TA",
+        "Organisation": {
+          "Name": null,
+          "ContactPerson": null
+        },
+        "ContactDetails": {
+          "Email": null,
+          "Phone": null
+        },
+        "PostalAddress": {
+          "PostcodeT": null,
+          "CountryCode": "ad"
+        },
+        "Payroll": {
+          "PayRunDate": "2021-07-01",
+          "PayeeRecordCount": 15,
+          "MessageTimestamp": "2021-01-01T00:00:00Z",
+          "TransactionId": null,
+          "IsAmendment": false,
+        },
+        "Declaration": {
+          "Signatory": null,
+          "Date": "2021-01-01",
+          "Declared": true
+        }
+      },
+      "Intermediary": {
+        "Abn": null,
+        "AgentNumber": null,
+        "ContactPerson": null,
+        "ContactDetails": {
+          "Email": null,
+          "Phone": null
+        },
+        "Declaration": {
+          "Signatory": null,
+          "Date": "2021-01-01",
+          "Declared": true
+        }
+      }
+    },
+    "Employees": [
+      {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "001",
+            "PreviousEmployeeId": "001"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "",
+            "CessationTypeCode": "F",
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "002",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2021-01-01",
+            "EmploymentEndDate": "2021-01-01",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+             "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+           "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+
+ 
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "003",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "2021-01-01",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "F",
+            "TaxTreatmentCode": "DBXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+              "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+          "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+               "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+      },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "004",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "2021-01-01",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "D",
+            "TaxTreatmentCode": "DBXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "005",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "2021-01-01",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "D",
+            "TaxTreatmentCode": "DBXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+                 "EmploymentTerminationPaymentCollection": [
+                  {
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "D",
+                    "IncomeD": "",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 100,
+                    "IncomePayAsYouGoWithholding": 20
+                  }
+                ]
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "006",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "VCXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "",
+            "Abn": "10000003720",
+            "EmployeeId": "007",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "VOXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "VOL",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "008",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "HRXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "009",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "HUXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "WHM",
+                "AddressDetailsCountryCode": "bz",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "010",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "WPXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "011",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "WPXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SWP",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "012",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2018-07-01",
+            "PeriodEnds": "2018-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "013",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-10-08",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "014",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2021-07-01",
+            "PeriodEnds": "2021-07-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+               "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+                 "EmploymentTerminationPaymentCollection": [
+                  {
+                    "IncomeTaxPayAsYouGoWithholdingTypeC": "P",
+                    "IncomeD": "",
+                    "IncomeTaxFreeA": 0,
+                    "IncomeTaxable": 0,
+                    "IncomePayAsYouGoWithholding": 20
+                  }
+                ]
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  },
+	  {
+        "Payee": {
+          "Identifiers": {
+            "Tfn": "111111111",
+            "Abn": "",
+            "EmployeeId": "015",
+            "PreviousEmployeeId": "103"
+          },
+          "Name": {
+            "FamilyName": null,
+            "GivenName": null,
+            "OtherNames": null
+          },
+          "BirthDate": {
+            "Day": 10,
+            "Month": 10,
+            "Year": 1978
+          },
+          "Address": {
+            "Line1": null,
+            "Line2": null,
+            "Locality": null,
+            "State": "",
+            "Postcode": null,
+            "CountryCode": "ad"
+          },
+          "ContactDetails": {
+            "Email": null,
+            "Phone": null
+          },
+          "EmployerConditions": {
+            "EmploymentStartDate": "2019-01-01",
+            "EmploymentEndDate": "",
+            "PaymentBasisCode": "C",
+            "CessationTypeCode": "",
+            "TaxTreatmentCode": "RNXXXX",
+            "TaxOffsetClaimTotal": 0
+          },
+          "PayrollPeriod": {
+            "PeriodBegins": "2015-01-01",
+            "PeriodEnds": "2015-01-01",
+            "RemunerationPayrollEventFinalIndicator": false,
+            "RemunerationCollection": [
+              {
+                "IncomeStreamTypeCode": "SAW",
+                "AddressDetailsCountryCode": "",
+                "IncomeTaxPayAsYouGoWithholdingTaxWithheld": 34,
+                "GrossAmount": 0,
+                "OvertimePayment": 0,
+                "GrossBonusesAndCommissions": 0,
+                "GrossDirectorsFees": 0,
+                "IndividualNonBusinessCommunityDevelopmentEmploymentProject": 0,
+              }
+            ],
+            "DeductionCollection": [
+              {
+                "DeductionTypeCode": null,
+                "RemunerationDeductionAmount": 0
+              }
+            ]
+          }
+        }
+	  }
+    ],
+    "LogicalDocuments": 2
+  },
+  "Details": {
+    "Messages": [],
+    "ResponseCodes": [],
+    "LodgementReceipt": null,
+    "LodgementReceiptTimestamp": null,
+    "SendCount": null,
+    "Enqueued": null,
+    "AgencyResponded": null,
+    "MaximumSeverity": "Information",
+    "IgnoreMaximumSeverity": false
+  },
+  "SendAfterUtc": null
+}

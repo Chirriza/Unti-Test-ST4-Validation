@@ -1,0 +1,395 @@
+{
+	"Id": null,
+	"HasAgencyResponded": true,
+	"Documents": {
+		"Form": "ato.stp.update2020",
+		"MessageType": "Submit.004.00",
+		"Header": {
+			"Payer": {
+				"BmsId": null,
+				"Abn": "43096702635",
+				"Wpn": null,
+				"BranchCode": "TA",
+				"Organisation": {
+					"Name": null,
+					"ContactPerson": null
+				},
+				"ContactDetails": {
+					"Email": null,
+					"Phone": null
+				},
+				"PostalAddress": {
+					"PostcodeT": null,
+					"CountryCode": "ad"
+				},
+				"Payroll": {
+					"PayRunDate": "2020-06-30",
+					"PayeeRecordCount": 3,
+					"MessageTimestamp": "2021-01-01T00:00:00Z",
+					"TransactionId": null,
+					"IsAmendment": false,
+					"Totals": {
+						"TaxWithheld": 0,
+						"GrossPayments": 0,
+						"ChildSupportWithholding": 0
+					}
+				},
+				"Declaration": {
+					"Signatory": null,
+					"Date": "2021-01-01",
+					"Declared": true
+				}
+			}
+		},
+		"Employees": [
+			{
+				"Payee": {
+					"Identifiers": {
+						"Tfn": "111111111",
+						"EmployeeId": "Emp01"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1982
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "chris.power@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "RNXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "WHM",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "R",
+										"FinancialYear": 2021,
+										"LumpSumPayments": 100
+									}
+								],
+								"AllowanceCollection": [
+									{
+										"AllowanceTypeCode": "Bt"
+									},
+									{
+										"AllowanceTypeCode": ""
+									},
+									{
+										"AllowanceTypeCode": "TD"
+									},
+									{
+										"AllowanceTypeCode": "CD"
+									}
+								]
+							},
+							{
+								"IncomeStreamTypeCode": "LAB",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "T",
+										"FinancialYear": 0,
+										"LumpSumPayments": 1000
+									}
+								]
+							},
+							{
+								"IncomeStreamTypeCode": "OSP",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "B",
+										"FinancialYear": 2012,
+										"LumpSumPayments": 100
+									}
+								]
+							},
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "D",
+										"LumpSumPayments": 0
+									},
+									{
+										"LumpSumTypeCode": "W",
+										"LumpSumPayments": -259.74
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2021,
+										"LumpSumPayments": -1007.6
+									},
+									{
+										"LumpSumTypeCode": "D",
+										"LumpSumPayments": 0
+									},
+									{
+										"LumpSumTypeCode": "",
+										"LumpSumPayments": 0
+									},
+									{
+										"LumpSumTypeCode": "x",
+										"LumpSumPayments": 0
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2020,
+										"LumpSumPayments": 200
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2019,
+										"LumpSumPayments": 300
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2018,
+										"LumpSumPayments": 400
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2017,
+										"LumpSumPayments": 500
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2016,
+										"LumpSumPayments": 600
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2015,
+										"LumpSumPayments": 700
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2014,
+										"LumpSumPayments": 800
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2014,
+										"LumpSumPayments": 900
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"FinancialYear": 2008,
+										"LumpSumPayments": 1000
+									},
+									{
+										"LumpSumTypeCode": "E",
+										"LumpSumPayments": 1100
+									}
+								]
+							},
+							{
+								"IncomeStreamTypeCode": "FEI",
+								"AddressDetailsCountryCode": "nz",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"IncomeTaxForeignWithholding": 1500,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "B",
+										"LumpSumPayments": 100
+									}
+								]
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"Tfn": "111111111",
+						"EmployeeId": "Emp02"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"BirthDate": {
+						"Day": 10,
+						"Month": 10,
+						"Year": 1982
+					},
+					"Address": {
+						"Line1": null,
+						"Line2": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000",
+						"CountryCode": "au"
+					},
+					"ContactDetails": {
+						"Email": "chris.power@gmail.com",
+						"Phone": null
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"EmploymentEndDate": "",
+						"PaymentBasisCode": "P",
+						"CessationTypeCode": null,
+						"TaxTreatmentCode": "VCXXXX",
+						"TaxOffsetClaimTotal": 0
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false,
+						"RemunerationCollection": [
+							{
+								"IncomeStreamTypeCode": "VOL",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "R",
+										"LumpSumPayments": 100
+									}
+								]
+							},
+							{
+								"IncomeStreamTypeCode": "SAW",
+								"IncomeTaxPayAsYouGoWithholdingTaxWithheld": 0,
+								"LumpSumCollection": [
+									{
+										"LumpSumTypeCode": "T",
+										"LumpSumPayments": 1000
+									}
+								],
+								"AllowanceCollection": [
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 1"
+									},
+									{
+										"AllowanceTypeCode": "QN",
+										"OtherAllowanceTypeDescription": "QN description unwanted"
+									},
+									{
+										"AllowanceTypeCode": "OD"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 3"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 4"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 5"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 6"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 7"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 8"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 9"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 10"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 11"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 12"
+									},
+									{
+										"AllowanceTypeCode": "OD",
+										"OtherAllowanceTypeDescription": "Other 13"
+									}
+								]
+							}
+						]
+					}
+				}
+			},
+			{
+				"Payee": {
+					"Identifiers": {
+						"Abn": "10000003833",
+						"EmployeeId": "Emp03"
+					},
+					"Name": {
+						"FamilyName": null,
+						"GivenName": null,
+						"OtherNames": null
+					},
+					"Address": {
+						"Line1": null,
+						"Locality": null,
+						"State": "WA",
+						"Postcode": "2000"
+					},
+					"EmployerConditions": {
+						"EmploymentStartDate": "2021-01-01",
+						"PaymentBasisCode": "P"
+					},
+					"PayrollPeriod": {
+						"PeriodBegins": "2021-01-01",
+						"PeriodEnds": "2021-01-30",
+						"RemunerationPayrollEventFinalIndicator": false
+					}
+				}
+			}
+		],
+		"LogicalDocuments": 2
+	},
+	"Details": {
+		"Messages": [],
+		"ResponseCodes": [],
+		"LodgementReceipt": null,
+		"LodgementReceiptTimestamp": null,
+		"SendCount": null,
+		"Enqueued": null,
+		"AgencyResponded": null,
+		"MaximumSeverity": "Information",
+		"IgnoreMaximumSeverity": false
+	},
+	"SendAfterUtc": null
+}
